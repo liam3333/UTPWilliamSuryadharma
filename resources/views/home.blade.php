@@ -49,7 +49,7 @@
                         <div class="card">
                             <a href="/detail/{{ $review->id }}"><img src="{{ $review->post_image }}" alt="Newsletter Photo" class="img-fluid"></a>
                             <div class="card-body">
-                                <h5 class="card-title"><a class="text-black" style="text-decoration: none !important">{{ $latest->title }}</a></h5>
+                                <h5 class="card-title"><a class="text-black" style="text-decoration: none !important">{{ $review->title }}</a></h5>
                                 <p class="card-text" style="height: 50px; overflow: hidden;">{{ $review->description }}</p>
                                 <a href="/detail/{{ $review->id }}" class="btn btn-primary bg-black" style="border: none">Read Post</a>
                             </div>
